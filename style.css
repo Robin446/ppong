@@ -1,0 +1,38 @@
+.heading{
+    width: 100%;
+    text-align: left;
+}
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid whitesmoke;
+}
+
+#start, #status, #restart{
+    font-size: 25px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.model-dialog{
+    width: 90%;
+}
+.copyright_footer{
+    position:fixed;
+    color: tomato;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas{
+    border: 2px solid rgb(135, 71, 255);
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 6px 8px 2px rgb(6, 255, 172);
+}
